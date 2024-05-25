@@ -1,0 +1,10 @@
+[Unit]
+Description=”mail-headers-analyzer”
+
+[Service]
+Restart=always
+WorkingDirectory=/var/mail-analyzer
+ExecStart=sudo python3 server.py -b 0.0.0.0 -p 8888 
+
+[Install]
+WantedBy=multi-user target
