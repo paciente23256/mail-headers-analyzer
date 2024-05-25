@@ -38,7 +38,7 @@ O Email Header Analyzer é uma ferramenta escrita em flask para analisar cabeça
 
 **Passo  2:** Clone o repositorio:
      
-     git  -c http.sslVerify=false clone https://github.com/paciente23256/mail-headers-analyzer.git /var/mail-analyzer/
+     git clone https://github.com/paciente23256/mail-headers-analyzer.git /var/mail-analyzer/
 
 
 **Passo  3:** Instalar as dependências do Python:
@@ -58,7 +58,7 @@ Por fim pode abrir o browser no endereço especificado
 
 **Auto Setup :** 
 
-     sudo wget --no-check-certificate -O - https://github.com/paciente23256/mail-headers-analyzer/-/raw/main/setup.sh | bash 
+     sudo wget -O - https://github.com/paciente23256/mail-headers-analyzer/-/raw/main/setup.sh | bash 
 
 **Ou:**
 
@@ -78,5 +78,5 @@ No browser abrir o endereço especificado
 
 **Daemon service :**
 
-<center><img src="https://github.com/paciente23256/mail-headers-analyzer/-/raw/main/linux-daemon/daemon.service.png"></center>
+<center><img src="https://raw.githubusercontent.com/paciente23256/mail-headers-analyzer/master/linux-daemon/daemon.service.png"></center>
 
