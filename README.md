@@ -58,7 +58,7 @@ Por fim pode abrir o browser no endereço especificado
 
 **Auto Setup :** 
 
-     sudo wget -O - https://github.com/paciente23256/mail-headers-analyzer/-/raw/main/setup.sh | bash 
+     sudo wget -O - https://raw.githubusercontent.com/paciente23256/mail-headers-analyzer/master/setup.sh | bash 
 
 **Ou:**
 
